@@ -1,4 +1,5 @@
-/* File : 0-positive_or_negative.c
+/*
+ * File : 0-positive_or_negative.c
  * Author: Emmanuel Adekeye
  */
 
@@ -6,7 +7,8 @@
 #include <time.h>
 #include <stdio.h>
 
-/* print whether the number stored in the
+/* 
+ * print whether the number stored in the
  * variable n is positive or negative
  */
 
@@ -17,8 +19,7 @@ int main(void)
 	srand(time(0));
 	n = rand() - RAND_MAX / 2;
 	/* My code */
-
-        if (n > 0)
+	if (n > 0)
 		printf("%d is positive\n", n);
 	else if (n < 0)
 		printf("%d is negative\n", n);

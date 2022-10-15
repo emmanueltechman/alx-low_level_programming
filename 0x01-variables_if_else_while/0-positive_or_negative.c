@@ -8,8 +8,8 @@
 #include <stdio.h>
 
 /**
- * main - print whether the number stored in the
- * Description: variable n is positive or negative
+ * main - Print whether the number stored in the
+ *	  variable n is positive or negative
  *
  * Return : Always 0 (Success)
  */

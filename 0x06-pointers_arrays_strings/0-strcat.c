@@ -6,7 +6,7 @@
  * @n: size of second string
  * Return: Always 0.
  */
-char *_strncat(char *dest, char *src, int n)
+char *_strcat(char *dest, char *src, int n)
 {
 	int lengthD, lengthS;
 
